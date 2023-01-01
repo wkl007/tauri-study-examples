@@ -28,6 +28,7 @@
     "@tauri-apps/api": "^1.2.0",
     "antd": "^5.1.2",
     "dayjs": "^1.11.7",
+    "qs": "^6.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1"
@@ -37,6 +38,7 @@
     "@commitlint/config-conventional": "^17.3.0",
     "@tauri-apps/cli": "^1.2.2",
     "@types/node": "^18.7.10",
+    "@types/qs": "^6.9.7",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^3.0.0",
