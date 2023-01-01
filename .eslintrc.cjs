@@ -6,15 +6,15 @@ module.exports = {
   },
   extends: ['react-app', 'prettier'],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    indent: ["error", 2, { SwitchCase: 1 }],
-    "no-undef": 0,
-    "no-unused-vars": 0,
-    "no-empty": 0,
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'no-undef': 0,
+    'no-unused-vars': 0,
+    'no-empty': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
   },
-}
+};

@@ -3,14 +3,14 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-rational-order',
     'stylelint-config-prettier',
-    'stylelint-config-html'
+    'stylelint-config-html',
   ],
   plugins: ['stylelint-order', 'stylelint-prettier'],
   overrides: [
     {
       files: ['**/*.less'],
-      customSyntax: 'postcss-less'
-    }
+      customSyntax: 'postcss-less',
+    },
   ],
   rules: {
     'prettier/prettier': true,
@@ -27,6 +27,6 @@ module.exports = {
     'selector-class-pattern': null,
     'value-no-vendor-prefix': null,
     'keyframes-name-pattern': null,
-    'property-no-vendor-prefix': null
-  }
-}
+    'property-no-vendor-prefix': null,
+  },
+};
