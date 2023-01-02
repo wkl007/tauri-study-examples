@@ -60,11 +60,24 @@
     },
     "windows": [
       {
+        "label": "main",
         "fullscreen": false,
         "height": 600,
         "resizable": true,
         "title": "tauri-study-examples",
         "width": 800
+      },
+      {
+        "label": "customization",
+        "url": "/customization",
+        "fullscreen": false,
+        "width": 800,
+        "height": 600,
+        "center": true,
+        "resizable": true,
+        "skipTaskbar": false,
+        "visible": false,
+        "decorations": false
       }
     ]
   }
