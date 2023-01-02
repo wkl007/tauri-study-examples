@@ -25,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^4.8.0",
     "@tauri-apps/api": "^1.2.0",
     "antd": "^5.1.2",
     "dayjs": "^1.11.7",

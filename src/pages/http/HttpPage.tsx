@@ -1,5 +1,6 @@
 import { Button } from 'antd';
 import { Body } from '@tauri-apps/api/http';
+import AppHeader from '@/components/AppHeader';
 import http from '@/utils/http';
 
 const HttpPage = () => {
@@ -66,6 +67,7 @@ const HttpPage = () => {
 
   return (
     <div>
+      <AppHeader title="接口请求" />
       <Button onClick={getMethod}>GET 请求</Button>
       <Button onClick={postMethod}>POST 请求</Button>
       <input type="file" onChange={uploadMethod} />
