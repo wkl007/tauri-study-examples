@@ -4,7 +4,8 @@
     "beforeDevCommand": "yarn dev",
     "beforeBuildCommand": "yarn build",
     "devPath": "http://localhost:1420",
-    "distDir": "../dist"
+    "distDir": "../dist",
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "tauri-study-examples",
@@ -53,7 +54,17 @@
       }
     },
     "security": {
-      "csp": null
+      "csp": null,
+      "dangerousRemoteDomainIpcAccess": [
+        {
+          "domain": "bohr.cheftin.cn",
+          "windows": [
+            "chatdoc",
+            "payment"
+          ],
+          "enableTauriAPI": true
+        }
+      ]
     },
     "updater": {
       "active": false
