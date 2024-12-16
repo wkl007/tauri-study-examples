@@ -15,8 +15,8 @@ const userAgent = {
 const CustomizationPage = () => {
   const createWindow = () => {
     const isMacOS = import.meta.env.TAURI_PLATFORM === 'macos';
-    const window = new WebviewWindow('chatdoc', {
-      url: 'https://bohr.cheftin.cn:8081/chatdoc/',
+    const window = new WebviewWindow('test', {
+      url: 'https://www.baidu.com',
       title: '窗口定制',
       fullscreen: false,
       width: 800,

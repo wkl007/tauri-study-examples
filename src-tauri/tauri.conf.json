@@ -57,10 +57,9 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "bohr.cheftin.cn",
+          "domain": "baidu.com",
           "windows": [
-            "chatdoc",
-            "payment"
+            "test"
           ],
           "enableTauriAPI": true
         }
